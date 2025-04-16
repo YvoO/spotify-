@@ -79,6 +79,8 @@ export default function SavedTracks() {
         data={filteredTracks}
         renderItem={renderItem}
         keyExtractor={(item) => item.id}
+        onRefresh={savedTracks.refetch}
+        refreshing={savedTracks.isRefetching}
       />
     </Container>
   );

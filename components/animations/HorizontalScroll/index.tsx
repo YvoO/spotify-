@@ -22,6 +22,7 @@ export const HorizontalScroll = ({
   const [deleteLoading, setDeleteLoading] = React.useState(false);
 
   const pan = Gesture.Pan()
+    .activeOffsetX([-10, 10])
     .onStart((event) => {
       translateX.value = event.translationX;
     })
