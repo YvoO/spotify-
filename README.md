@@ -3,18 +3,15 @@
 An assignment for Vytal to show my awesome skills
 
 ## Get Started
+Install dependencies: npm install
 
-Install dependencies npm install
+Start the app: npx expo start
 
-Start the app npx expo start
-
-In the output, you'll find options to open the app in a
-
-development build
-Android emulator
-iOS simulator
-Expo Go, a limited sandbox for trying out app development with Expo
-You can start developing by editing the files inside the app directory. This project uses [file-based routing]
+In the output, you'll find options to open the app in a:
+* Development build
+* Android emulator
+* iOS simulator
+* Expo Go, a limited sandbox for trying out app development with Expo
 
 The Spotify API is not working so you will be stuck on the sign in screen.
 Go to this file /app/(app)/_layout.tsx and comment out line 16 to see the protected part of the app.
